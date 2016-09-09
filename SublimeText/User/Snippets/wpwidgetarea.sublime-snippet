@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Widget Area: ${1:widget_area_name}
+ */
+register_sidebar( array(
+	'id'          => '${2:widget_area_id}',
+	'name'        => '${1:widget_area_name}',
+	'description' => __( '${3:widget_area_desc}', '${4:text_domain}' ),
+	'before_widget' => '',
+	'after_widget'  => '',
+	'before_title'  => '',
+	'after_title'   => ''
+) );
+]]></content>
+	<tabTrigger>wpwidgetarea</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,45 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"AutoFileName",
+		"BracketGuard",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"Colorsublime",
+		"CSScomb",
+		"DocBlockr",
+		"Emmet",
+		"EncodingHelper",
+		"FindKeyConflicts",
+		"Function Name Display",
+		"GhostText",
+		"Gist",
+		"GitGutter",
+		"Google Search",
+		"HTML-CSS-JS Prettify",
+		"Jade",
+		"LESS",
+		"LineEndings",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Origami",
+		"Package Control",
+		"Pretty JSON",
+		"SassBeautify",
+		"SCSS",
+		"SideBarEnhancements",
+		"Stylus",
+		"SublimeCodeIntel",
+		"Table Editor",
+		"Theme - Cobalt2",
+		"Toggle Words",
+		"WordPress Customizer"
+	]
+}

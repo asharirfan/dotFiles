@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Navigation Menus Register
+ */
+function ${1:function_name}() {
+
+	$nav_args = array(
+		'${2:nav_id}' => __( '${3:nav_name}', '${4:text_domain}' )
+	);
+	register_nav_menus( $nav_args );
+
+}
+add_action( 'init', '${1:function_name}' );
+]]></content>
+	<tabTrigger>wpnavmenu</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Read More Link
+ */
+apply_filters( 
+    'the_content_more_link',
+    ' <a href="' . get_permalink() . "#more-{$post->ID}\" class=\"more-link\">$more_link_text</a>",
+    $more_link_text
+);
+]]></content>
+	<tabTrigger>wpreadmore</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
